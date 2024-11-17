@@ -1,14 +1,27 @@
-# Text_reading_alg
-Machine learning algorithm for recognition, reading and transcription of plain text,
-using opencv and tesseract open-source libraries.
+# Text Reading Algorithm
 
-It's written in c++ so you need cmake in order to compile the code.
+A machine learning-based algorithm for text recognition, reading, and transcription, leveraging OpenCV and Tesseract open-source libraries.
 
-You have my precompiled CMakeLists.txt wich you can use for this code specifically.
+## Features
+- Recognizes and transcribes plain text from images.
+- Built using C++ with dependencies on OpenCV and Tesseract.
+- Includes a preconfigured `CMakeLists.txt` for seamless compilation.
 
-To compile using cmake run those commands on the terminal inside the code directory along with the .txt file:
-'cmake .'
-and then 
-'make'
+## Requirements
+- C++ Compiler
+- CMake (version 3.10 or higher recommended)
+- OpenCV Library
+- Tesseract OCR Library
 
-this will create an executable wich you can run with ./ .
+## How to Compile
+1. Clone this repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_name>
+2. Compile usiing CMake
+   ```bash
+   cmake .
+   make
+3.Run
+  ```bash
+  ./<executable_name>
